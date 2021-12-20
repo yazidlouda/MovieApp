@@ -1,7 +1,6 @@
 # MovieApp
 
 #### Technologies used :
---
  - Swift.
  - RESTful API.
  - MVVM.
