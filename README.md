@@ -11,4 +11,4 @@ MovieApp is an application where a user can scroll throught different king of Mo
  - [x] Genre.
  - [x] Rotation.
  - [x] Custom Views.
- - [x] Lazy Loading
+
