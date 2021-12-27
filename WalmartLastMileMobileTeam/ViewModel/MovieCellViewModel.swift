@@ -14,7 +14,7 @@ class MovieCellViewModel{
     var releaseDateLbl: UILabel?
     var genreLbl: UILabel?
     var img: UIImageView?
-    
+    //Mark: Getting UIViews
     func getViews(titleLbl: UILabel?, popularityLbl :UILabel?, releaseDateLbl: UILabel?, genreLbl: UILabel?,img: UIImageView?){
         self.titleLbl = titleLbl
         self.popularityLbl = popularityLbl
@@ -22,6 +22,7 @@ class MovieCellViewModel{
         self.genreLbl = genreLbl
         self.img = img
     }
+    //Mark: Set data for MovieCell
     func setData(imageUrl: String,mtitle: String, mGenre: String,mpopularity: Float,mReleaseDate: String){
         titleLbl?.text = mtitle
         genreLbl?.text = mGenre

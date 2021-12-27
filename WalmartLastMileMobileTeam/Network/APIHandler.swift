@@ -14,6 +14,7 @@ class APIHandler {
     typealias completionHandler = ((Result?,Error?)->())?
     typealias genreCompletionHandler = ((Genres?,Error?)->())?
     
+    //Mark: Fetch data from Movie JSON file
     func fetchData(list:Int = 1, completion:completionHandler) {
         if let url = URL(string: Constants.movieUrlp1 + "\(list)" + Constants.movieUrlp2){
             URLSession.shared.dataTask(with: url,completionHandler: {  data, response, error in
@@ -29,6 +30,7 @@ class APIHandler {
         }
        
     }
+    //Mark: Fetch genre from Genre JSON File 
     func fetchGenre(completion:genreCompletionHandler){
         if let url = URL(string: Constants.genreUrl){
             URLSession.shared.dataTask(with: url,completionHandler:  { data, response, error in

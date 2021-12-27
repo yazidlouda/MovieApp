@@ -13,6 +13,7 @@ class MovieDetailViewmodel{
     static var movieOverview = ""
     static var movieGenre = ""
     static var movieReleaseDate = ""
+    //Mark: setup data for MovieDetailViewController
     func setupDetailData(myViewViewModel: TestView!){
         myViewViewModel.mtitle.text = MovieDetailViewmodel.movieTitle
         myViewViewModel.mOverview.text = MovieDetailViewmodel.movieOverview

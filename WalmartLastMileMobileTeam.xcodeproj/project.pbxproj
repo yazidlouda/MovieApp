@@ -80,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F44CCB4F277368E20025A783 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4EF35E32768E4FE00C57BA9 /* Movie.swift */,
+				F4EF35FD276A833200C57BA9 /* TestView.swift */,
+				F488F316276CEE6A00F64FE7 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F44CCB562773690D0025A783 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F4EF35E02768E4E800C57BA9 /* APIHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		F488F31F276CF8CB00F64FE7 /* WalmartLastMileMobileTeamTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +105,28 @@
 				F488F322276CF8CB00F64FE7 /* Info.plist */,
 			);
 			path = WalmartLastMileMobileTeamTests;
+			sourceTree = "<group>";
+		};
+		F4E0E7202773681200893A95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F488F331276D2BDF00F64FE7 /* MovieCellViewModel.swift */,
+				F4EF35E72768EA1300C57BA9 /* MovieViewModel.swift */,
+				F488F32C276D106100F64FE7 /* MovieDetailViewmodel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F4E0E7212773683F00893A95 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F4EF35F22768FBDA00C57BA9 /* MovieTableViewCell.xib */,
+				F4EF35F7276905D100C57BA9 /* MovieDetailViewController.swift */,
+				F4EF35FB276A7B4500C57BA9 /* TestView.xib */,
+				F4EF35EB2768F12000C57BA9 /* MovieViewController.swift */,
+				F4EF35F12768FBDA00C57BA9 /* MovieTableViewCell.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		F4EF35B92768DCDE00C57BA9 = {
@@ -110,24 +150,16 @@
 		F4EF35C42768DCDE00C57BA9 /* WalmartLastMileMobileTeam */ = {
 			isa = PBXGroup;
 			children = (
+				F4EF35CB2768DCDE00C57BA9 /* Main.storyboard */,
+				F44CCB562773690D0025A783 /* Network */,
+				F44CCB4F277368E20025A783 /* Model */,
+				F4E0E7212773683F00893A95 /* view */,
+				F4E0E7202773681200893A95 /* ViewModel */,
 				F4EF35C52768DCDE00C57BA9 /* AppDelegate.swift */,
 				F4EF35C72768DCDE00C57BA9 /* SceneDelegate.swift */,
-				F4EF35CB2768DCDE00C57BA9 /* Main.storyboard */,
 				F4EF35CE2768DCFB00C57BA9 /* Assets.xcassets */,
 				F4EF35D02768DCFB00C57BA9 /* LaunchScreen.storyboard */,
 				F4EF35D32768DCFB00C57BA9 /* Info.plist */,
-				F4EF35E02768E4E800C57BA9 /* APIHandler.swift */,
-				F4EF35E32768E4FE00C57BA9 /* Movie.swift */,
-				F4EF35E72768EA1300C57BA9 /* MovieViewModel.swift */,
-				F4EF35EB2768F12000C57BA9 /* MovieViewController.swift */,
-				F4EF35F12768FBDA00C57BA9 /* MovieTableViewCell.swift */,
-				F4EF35F22768FBDA00C57BA9 /* MovieTableViewCell.xib */,
-				F4EF35F7276905D100C57BA9 /* MovieDetailViewController.swift */,
-				F4EF35FB276A7B4500C57BA9 /* TestView.xib */,
-				F4EF35FD276A833200C57BA9 /* TestView.swift */,
-				F488F316276CEE6A00F64FE7 /* Constants.swift */,
-				F488F32C276D106100F64FE7 /* MovieDetailViewmodel.swift */,
-				F488F331276D2BDF00F64FE7 /* MovieCellViewModel.swift */,
 			);
 			path = WalmartLastMileMobileTeam;
 			sourceTree = "<group>";

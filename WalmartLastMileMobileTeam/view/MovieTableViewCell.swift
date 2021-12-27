@@ -22,9 +22,9 @@ let vmc = MovieCellViewModel()
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-    func setUpData(imageUr: String,mtitl: String, mGenr: String,mpopularit: Float,mReleaseDat: String){
+    func setUpData(imageUr: String?,mtitl: String?, mGenr: String?,mpopularit: Float?,mReleaseDat: String?){
         vmc.getViews(titleLbl: title, popularityLbl: popularity, releaseDateLbl: releaseDate, genreLbl: genre, img: img)
-        vmc.setData(imageUrl: imageUr, mtitle: mtitl, mGenre: mGenr, mpopularity: mpopularit, mReleaseDate: mReleaseDat)
+        vmc.setData(imageUrl: imageUr ?? "NA", mtitle: mtitl ?? "NA", mGenre: mGenr ?? "NA", mpopularity: mpopularit ?? 0.0, mReleaseDate: mReleaseDat ?? "NA")
     }
     
 }
